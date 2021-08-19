@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.mentee</OriginalElement>
+  <nodes>
+    <node x="490.0534747372492" y="374.8839992304718">e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.mentee</node>
+    <node x="55.5" y="326.0">e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.phase</node>
+    <node x="376.5" y="172.0">e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.mentor_applications_sub_topic</node>
+    <node x="704.5" y="128.0">e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.topic_sub_title</node>
+    <node x="720.5" y="0.0">e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.topic</node>
+    <node x="412.5" y="0.0">e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.mentor_applications</node>
+    <node x="76.0" y="0.0">e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.mentorship</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.topic_sub_title" target="e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.topic" relationship="REFERENCES">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.phase" target="e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.phase" relationship="REFERENCES">
+      <point x="0.0" y="171.0" />
+      <point x="193.5" y="688.0" />
+      <point x="35.5" y="688.0" />
+      <point x="35.5" y="497.0" />
+      <point x="-138.0" y="-0.0" />
+    </edge>
+    <edge source="e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.phase" target="e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.mentorship" relationship="REFERENCES">
+      <point x="0.0" y="-171.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.mentor_applications_sub_topic" target="e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.mentor_applications" relationship="REFERENCES">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5305543443792611" showDependencies="false" x="627.9596856888305" y="561.5878224033561" />
+  <SelectedNodes>
+    <node>e2bd835a-e6f0-4f14-a5eb-cc1f4ed98684.TABLE:mentorship.public.mentee</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
