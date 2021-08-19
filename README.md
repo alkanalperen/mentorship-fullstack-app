@@ -8,7 +8,6 @@
   - Rol based Authentication and Authorization with LDAP protocol.
   - Google Authentication with ***OAuth2***
   - Free Text Search with ***Elastichsearch***.
-  - ***Sending scheduled email*** with Quartz
   - ***CRUD operations*** for mentors and mentees.
   - Swagger for api documentation
 
