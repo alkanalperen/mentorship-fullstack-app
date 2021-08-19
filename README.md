@@ -19,7 +19,7 @@ Mentorship Platform uses a number of open source projects to work properly:
 - [Spring Framework](https://spring.io/) (Spring Boot, Spring Security, Spring Data JPA)
 - [React](https://reactjs.org/)
 - [Docker](https://www.docker.com/)
-- [LDAP]
+- [LDAP](https://ldap.com/)
 - [OAuth2](https://oauth.net/2/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Elasticsearch](https://www.elastic.co/) -- Free text search
